@@ -11,7 +11,7 @@ This tool is designed to allow visual validation for a form requesting the URL f
 Include jQuery and tweet_preview.js either locally or using the github uri below:
 
 ```
-<script type="text/javascript" src="<script src="https://raw.githubusercontent.com/ryanpq/forms/master/tweet_preview.js" type="text/javascript"></script>
+<script type="text/javascript" src="<script src="https://raw.githubusercontent.com/ryanpq/forms/master/tweet_preview/tweet_preview.js" type="text/javascript"></script>
 "/>
 ```
 
