@@ -8,10 +8,10 @@ This script takes a form input field (usually text) and a div as input and will 
 This tool is designed to allow visual validation for a form requesting the URL for a tweet by providing a real-time preview of the content.
 
 ####Use
-Include jQuery and tweet_preview.js either locally or using the github uri below:
+Include jQuery and tweet_preview.js:
 
 ```
-<script type="text/javascript" src="<script src="https://raw.githubusercontent.com/ryanpq/forms/master/tweet_preview/tweet_preview.js" type="text/javascript"></script>
+<script type="text/javascript" src="<script src="/tweet_preview.js" type="text/javascript"></script>
 "/>
 ```
 
