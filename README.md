@@ -12,7 +12,6 @@ Include jQuery and tweet_preview.js:
 
 ```
 <script type="text/javascript" src="<script src="/tweet_preview.js" type="text/javascript"></script>
-"/>
 ```
 
 Then add a `<script>` block with a call to initialize the script. In this section, replace `form_field` with the form field to connect tweet_preview.js to and `empty_div` with the div where you want the preview to appear.
