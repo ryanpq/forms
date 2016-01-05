@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="tweet_preview.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $( document ).ready(function() {
+                t_preview('tweet','tweetdisplay')
+                });
+        </script>
+        <style type="text/css">
+            .tweetdisplay {
+                width:500px;
+                height:auto;
+                float:left;
+                color:#ccc;
+                font-size:18px;
+            }
+            .form {
+                width:100%;
+                float:left;
+            }
+            .defaultstate {
+                display:none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form">
+            <input type="text" style="width:500px;" id="tweet" name="tweet"/>
+        </div>
+        <div class="tweetdisplay" id="tweetdisplay">
+            <div style="text-align:center">
+                <img src="tweet.png"/>
+                <p style="font-color:#ccc;font-size:18px;">Enter a Valid Tweet URL</p>
+            </div>            
+        </div>
+    </body>
+</html>
