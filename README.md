@@ -24,3 +24,7 @@ Then add a `<script>` block with a call to initialize the script. In this sectio
         });
 </script>
 ```
+
+#### Example
+
+[Tweet Preview Example](http://forms.dply.co/tweet_preview.html)
